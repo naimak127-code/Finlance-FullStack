@@ -71,7 +71,7 @@ app = FastAPI()
 
 conf = ConnectionConfig(
     MAIL_USERNAME = "naimak127@gmail.com",
-    MAIL_PASSWORD = "dvohlfwcjnxbzicc",
+    MAIL_PASSWORD = os.getenv("MAIL_PASSWORD"),
     MAIL_FROM = "naimak127@gmail.com",
     MAIL_PORT = 587,
     MAIL_SERVER = "smtp.gmail.com",
