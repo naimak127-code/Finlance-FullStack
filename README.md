@@ -102,7 +102,7 @@ The project follows a client-server architecture where a React frontend communic
 
 ## Budget Management
 
-![Budget](images/budget.png)
+![Budget](images/budgets.png)
 
 ---
 
